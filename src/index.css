@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .h-300 {
+      height: 300px;
+    }
+  }
+
+.container {
+    @apply h-300 w-screen bg-cover bg-center relative;
+    background-image: url('./assets/banner_s.jpg');
+    
+  }
+  
+  .overlay {
+    @apply absolute top-0 left-0 w-full h-full bg-blue-600 bg-opacity-70 flex flex-col justify-center items-center;
+  }
+  
+  
+  h1 {
+    @apply text-7xl;
+  }
+  
+  p {
+    @apply text-2xl;
+    ;
+  }
+   
