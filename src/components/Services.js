@@ -6,9 +6,9 @@ const Services = () => {
   return (
     <div className="bg-slate-100">
 
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 id="services" className="text-center text-gray-700 uppercase font-semibold pt-4 pb-4 text-3xl">services</h2>
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <div className=" w-[100%] mx-auto px-4 sm:px-6 max-w-5xl lg:px-8">
+    <h2 id="services" className="text-xl font-medium text-center text-gray-700 uppercase pt-4 pb-4 md:font-semibold  md:text-3xl">services</h2>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
 
       {services.map(service =>(
         <Card
@@ -25,7 +25,9 @@ const Services = () => {
 
     
     </div>
+    
   )
 }
 
 export default Services
+

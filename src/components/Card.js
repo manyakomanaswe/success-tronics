@@ -2,9 +2,9 @@
 
 const Card = ({image,icon,heading,tag}) => {
   return (
-    <div className="w-[260px] h-[420px] rounded-t bg-gray-50 mt-6 mb-6 pb-4">
+    <div className="w-[100%] sm:w-[260px] h-[420px] rounded-t bg-gray-50 mt-6 mb-6 pb-4">
       <img
-        className="w-full h-[200px] rounded-t"
+        className="w-full h-[50%] sm:h-[200px] rounded-t"
         src={image}
         alt={heading}
       />
@@ -14,7 +14,7 @@ const Card = ({image,icon,heading,tag}) => {
         
       </div>
       <h6 className="text-xl text-gray-800 text-center mt-4">{heading}</h6>
-      <p className="text-gray-600 text-sm text-center mt-2 p-6">
+      <p className="text-gray-600 text-sm text-center mt-2 pb-6 pl-2 pr-2">
         {tag}
       </p>
     </div>
@@ -22,3 +22,4 @@ const Card = ({image,icon,heading,tag}) => {
 };
 
 export default Card;
+
