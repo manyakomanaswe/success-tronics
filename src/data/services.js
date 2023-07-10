@@ -13,7 +13,7 @@ import cloud from '../assets/infrastructure.png';
 import network from '../assets/cloud-network.png';
 import repair from '../assets/laptop.png';
 const services = [
-    {ServiceImage:Consult,Icon:talk, heading:"IT Consulting", tag:"Our vastly experienced dedicated pool of resources are ready to work on your IT Systems"},
+    {ServiceImage:Consult,Icon:talk, heading:"IT Consulting", tag:"Our IT professionals work with diverse companies and deal with a range of issues"},
     {ServiceImage:Support,Icon:customer, heading:"IT Support", tag:"Our vastly experienced dedicated pool of resources are ready to work on your IT Systems"},
     {ServiceImage:Manage,Icon:manage, heading:"IT Management", tag:"Our managed IT services will help you to spend time on the aspects of your business that matter most"},
     {ServiceImage:Server,Icon:cloud, heading:"Cloud & Infrastructure", tag:"We monitor all your cloud data to provide real-time analytics while guaranteeing cyber threat protections"},
