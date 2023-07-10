@@ -8,11 +8,10 @@
     }
   }
 
-.container {
-    @apply h-300 w-screen bg-cover bg-center relative;
-    background-image: url('./assets/banner_s.jpg');
+/* .container {
+    @apply h-300 w-[100%] bg-cover bg-center relative background-image: url('./assets/banner_s.jpg');
     
-  }
+  } */
   
   .overlay {
     @apply absolute top-0 left-0 w-full h-full bg-blue-600 bg-opacity-70 flex flex-col justify-center items-center;
